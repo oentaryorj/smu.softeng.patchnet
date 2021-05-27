@@ -1,0 +1,81 @@
+.ipynb_checkpoints
+
+# Packages
+*.egg
+*.egg-info
+/dist/
+/build/
+/eggs/
+/parts/
+/var/
+/sdist/
+/develop-eggs/
+.installed.cfg
+/lib/
+/lib64/
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+test-output
+coverage-results.xml
+prospector-results.xml
+test-results.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+# pyCharm
+.idea
+
+# VirtualEnv
+env
+env*
+.venv
+
+# Sphinx docs
+docs/html/
+
+# Mac
+.DS_Store
+
+# Test data
+*mock*.csv
+*mock*.txt
+*mock*.json
+tests/e2e/features/data/processed/
+tests/e2e/features/data/raw/raw_data/
+tests/e2e/features/data/expected/processed_data/
+tests/e2e/features/data/expected/quality_report/
+
+.pytest_cache/
+.venv/
+.vscode/
+
+# Behave reports
+behave_reports/
+
+# Dask worker space
+dask-worker-space/

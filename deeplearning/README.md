@@ -4,12 +4,9 @@
 
 Please install the necessary libraries before running our tool:
 
-- python==3.6.9
-- torch==1.2.0
-- tqdm==4.46.1
-- nltk==3.4.5
-- numpy==1.16.5
-- scikit-learn==0.22.1
+    $ virtual venv
+    $ source venv/bin/activate
+    $ pip install requirements.txt
 
 ## Data & Pretrained models:
 
